@@ -26,7 +26,7 @@ Through this portfolio, I document the systems and solutions I design and build 
 ### Connect With Me
 
 - 💼 LinkedIn: [https://www.linkedin.com/in/maha-alzenati-gamedev/]
-- 🌐 Portfolio: [Your Portfolio]
+- 🌐 Portfolio: [https://portfolio-maha.lovable.app/]
 - 📧 Email: [mahaalzenati9@gmail.com]
 - 🐙 GitHub: [Your GitHub]
 
@@ -158,7 +158,7 @@ I learned how to transform a problem into a system and use AI-powered tools to d
 
 **Type:** Independent Project
 
-🔗 [View Project](./02-build-the-system/independent-project)
+🔗 [View Project](https://portfolio-maha.lovable.app/)
 
 ---
 
