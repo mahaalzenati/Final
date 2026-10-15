@@ -124,11 +124,11 @@ I learned how to understand real-world work, decompose processes, identify input
 
 ### Projects
 
-#### 01 — [Course Project Name]
+#### 01 — [Google Forms to AI Analysis and Notifications]
 
 **Type:** Guided Project
 
-🔗 [View Project](./01-process-and-data/course-project)
+🔗 [View Project](https://zapier.com/editor/383094876/draft)
 
 #### 02 — [Independent Project Name]
 
