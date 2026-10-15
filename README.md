@@ -8,9 +8,9 @@
 
 ## 👩‍💻 About Me
 
-Hi, I'm **[Your Name]**.
+Hi, I'm **[Maha alzenati]**.
 
-I am a **[Your Professional Title]** interested in building AI-powered solutions that solve real-world problems and create meaningful impact.
+I am a **[UX/UI designer]** interested in building AI-powered solutions that solve real-world problems and create meaningful impact.
 
 Through this portfolio, I document the systems and solutions I design and build throughout my AI Automation journey.
 
@@ -25,9 +25,9 @@ Through this portfolio, I document the systems and solutions I design and build 
 
 ### Connect With Me
 
-- 💼 LinkedIn: [Your LinkedIn]
+- 💼 LinkedIn: [https://www.linkedin.com/in/maha-alzenati-gamedev/]
 - 🌐 Portfolio: [Your Portfolio]
-- 📧 Email: [Your Email]
+- 📧 Email: [mahaalzenati9@gmail.com]
 - 🐙 GitHub: [Your GitHub]
 
 ---
@@ -148,13 +148,13 @@ I learned how to transform a problem into a system and use AI-powered tools to d
 
 ### Projects
 
-#### 01 — [Course Project Name]
+#### 01 — [Dev alignment helper (SkillBridge Lite)]
 
 **Type:** Guided Project
 
-🔗 [View Project](./02-build-the-system/course-project)
+🔗 [View Project](https://dev-alignment-helper.lovable.app)
 
-#### 02 — [Independent Project Name]
+#### 02 — [Personal Portfolio]
 
 **Type:** Independent Project
 
@@ -172,13 +172,13 @@ I learned how to test AI-powered systems, identify failures, evaluate outputs, a
 
 ### Projects
 
-#### 01 — [Course Project Name]
+#### 01 — [Mizanity]
 
 **Type:** Guided Project
 
 🔗 [View Project](./03-prove-it-works/course-project)
 
-#### 02 — [Independent Project Name]
+#### 02 — [Tajaroub]
 
 **Type:** Independent Project
 
