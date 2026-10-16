@@ -176,13 +176,13 @@ I learned how to test AI-powered systems, identify failures, evaluate outputs, a
 
 **Type:** Guided Project
 
-🔗 [View Project](./03-prove-it-works/course-project)
+🔗 [View Project](https://smart-expense-manage-tchr.bolt.host)
 
 #### 02 — [Tajaroub]
 
 **Type:** Independent Project
 
-🔗 [View Project](/03-prove-it-works/independent-project](https://screenshot-heartbeat.lovable.app)
+🔗 [View Project](https://screenshot-heartbeat.lovable.app)
 
 ---
 
