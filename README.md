@@ -182,7 +182,7 @@ I learned how to test AI-powered systems, identify failures, evaluate outputs, a
 
 **Type:** Independent Project
 
-🔗 [View Project](./03-prove-it-works/independent-project)
+🔗 [View Project](/03-prove-it-works/independent-project](https://screenshot-heartbeat.lovable.app)
 
 ---
 
