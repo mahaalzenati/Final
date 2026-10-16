@@ -28,7 +28,7 @@ Through this portfolio, I document the systems and solutions I design and build 
 - 💼 LinkedIn: [https://www.linkedin.com/in/maha-alzenati-gamedev/]
 - 🌐 Portfolio: [https://portfolio-maha.lovable.app/]
 - 📧 Email: [mahaalzenati9@gmail.com]
-- 🐙 GitHub: [Your GitHub]
+- 🐙 GitHub: [https://github.com/mahaalzenati]
 
 ---
 
@@ -128,7 +128,7 @@ I learned how to understand real-world work, decompose processes, identify input
 
 **Type:** Guided Project
 
-🔗 [View Project](https://zapier.com/editor/383094876/draft)
+🔗 [View Project](https://zapier.com/editor/383094876/draft/383094876/fields)
 
 #### 02 — [Independent Project Name]
 
