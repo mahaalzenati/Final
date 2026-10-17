@@ -172,17 +172,23 @@ I learned how to test AI-powered systems, identify failures, evaluate outputs, a
 
 ### Projects
 
-#### 01 — [Mizanity]
+#### 01 — [Task Bridge]
 
 **Type:** Guided Project
 
-🔗 [View Project](https://smart-expense-manage-tchr.bolt.host)
+🔗 [View Project](https://pixel-perfect-showcase-8134.lovable.app)
 
 #### 02 — [Tajaroub]
 
 **Type:** Independent Project
 
 🔗 [View Project](https://screenshot-heartbeat.lovable.app)
+
+#### 03 — [Mizanity]
+
+**Type:** Independent Project
+
+🔗 [View Project](https://smart-expense-manage-tchr.bolt.host/)
 
 ---
 
