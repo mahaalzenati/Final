@@ -248,11 +248,12 @@ We need it next month.
 
 ### Final Result
 
-![Final Result](./screenshots/final-result.png)
+![Final Result](01-Process & Data Thinking/Course-Project/Screenshots/Test1.png)
+![Final Result](01-Process & Data Thinking/Course-Project/Screenshots/Test2.png)
 
 ### Workflow
 
-![Workflow](./screenshots/workflow.png)
+![Workflow](01-Process & Data Thinking/Course-Project/Screenshots/workflow.png)
 
 ---
 
