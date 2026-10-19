@@ -253,7 +253,7 @@ We need it next month.
 
 ### Workflow
 
-![Workflow](01-Process & Data Thinking/Course-Project/Screenshots/workflow.png)
+![Workflow](<01-Process & Data Thinking/Course-Project/Screenshots/workflow.png>)
 
 ---
 
