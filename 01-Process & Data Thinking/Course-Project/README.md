@@ -248,7 +248,7 @@ We need it next month.
 
 ### Final Result
 
-![Final Result](01-Process & Data Thinking/Course-Project/Screenshots/Test1.png)
+![Test1](Screenshots/Test1.png)
 ![Final Result](01-Process & Data Thinking/Course-Project/Screenshots/Test2.png)
 
 ### Workflow
