@@ -202,17 +202,17 @@ I learned how AI systems can work with external knowledge and how to design solu
 
 ### Projects
 
-#### 01 — AI Knowledge Assistant
+#### 01 — AI Knowledge Assistant (TECHFIX)
 
 **Type:** Guided Project
 
-🔗 [View Project](./04-ground-its-knowledge/course-project)
+🔗 [View Project](https://udify.app/chat/XezHChK9hk2hImTH)
 
-#### 02 — [Independent Project Name]
+#### 02 — [Daleel]
 
 **Type:** Independent Project
 
-🔗 [View Project](./04-ground-its-knowledge/independent-project)
+🔗 [View Project](.https://udify.app/chat/28rgAdgo0M3yyADB)
 
 ---
 
@@ -226,17 +226,16 @@ I learned when an Agent is appropriate, how AI can make decisions, and how to ke
 
 ### Projects
 
-#### 01 — [Course Project Name]
-
+#### 01 — [XYZ Real Estate AI Agent
 **Type:** Guided Project
 
-🔗 [View Project](./05-control-its-agency/course-project)
+🔗 [View Project](https://kamalmaha.app.n8n.cloud/workflow/cs4kFYgWiyMJxGHH)
 
-#### 02 — [Independent Project Name]
+#### 02 — [ScamSpotter]
 
 **Type:** Independent Project
 
-🔗 [View Project](./05-control-its-agency/independent-project)
+🔗 [View Project](https://kamalmaha.app.n8n.cloud/workflow/X5LceqigjtCas8nc)
 
 ---
 
@@ -250,11 +249,11 @@ I learned how AI-powered systems communicate with external applications, service
 
 ### Projects
 
-#### 01 — [Course Project Name]
+#### 01 — [PlanCraft AI]
 
 **Type:** Guided Project
 
-🔗 [View Project](./06-connect-it-to-the-world/course-project)
+🔗 [View Project](https://pixel-perfect-replay-6860.lovable.app)
 
 #### 02 — [Independent Project Name]
 
