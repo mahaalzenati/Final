@@ -130,11 +130,11 @@ I learned how to understand real-world work, decompose processes, identify input
 
 🔗 [View Project](https://zapier.com/editor/383094876/draft/383094876/fields)
 
-#### 02 — [Independent Project Name]
+#### 02 — [IT Support]
 
 **Type:** Independent Project
 
-🔗 [View Project](./01-process-and-data/independent-project)
+🔗 [View Project](https://zapier.com/editor/00000000-0000-c000-8000-000383165820/published)
 
 ---
 
