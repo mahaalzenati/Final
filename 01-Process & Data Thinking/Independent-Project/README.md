@@ -63,14 +63,35 @@ What does the system do?
 
 ## ⚙️ How It Works
 
+
+## ⚙️ آلية عمل النظام (How It Works)
+
 ```mermaid
 flowchart TD
-    A[Google Forms] --> B[AI by Zapier]
-    B --> C{هل المعلومات مكتملة؟}
-    C -->|نعم| D[تحديث Google Sheets]
-    C -->|لا| E[تحديث Google Sheets]
-    D --> F[إشعار بالبريد الإلكتروني]
-    E --> G[إشعار بالمعلومات الناقصة]
+    A["👤 الموظف"] --> B["Google Forms<br/>استقبال طلب الدعم الفني"]
+    B --> C["AI by Zapier<br/>تلخيص الطلب والتحقق من المعلومات الناقصة"]
+    C --> D{"هل المعلومات مكتملة؟"}
+
+    D -->|نعم| E["تحديث سجل الطلب<br/>في Google Sheets"]
+    D -->|لا| F["تحديث سجل الطلب<br/>في Google Sheets"]
+
+    E --> G["إرسال إشعار بالبريد الإلكتروني<br/>إلى فريق الدعم الفني"]
+    F --> H["إرسال إشعار بالبريد الإلكتروني<br/>إلى فريق الدعم الفني"]
+
+    G --> I["ملخص الطلب وتفاصيله"]
+    H --> J["تفاصيل الطلب<br/>والمعلومات الناقصة"]
+
+    classDef input fill:#e8f2ff,stroke:#3973ac,color:#17365d
+    classDef ai fill:#f0e8ff,stroke:#805ad5,color:#44306b
+    classDef decision fill:#fff3cd,stroke:#c99a16,color:#664d03
+    classDef process fill:#e6f4ea,stroke:#4b9560,color:#245231
+    classDef output fill:#f3f4f6,stroke:#6b7280,color:#1f2937
+
+    class A,B input
+    class C ai
+    class D decision
+    class E,F process
+    class G,H,I,J output
 ```
 
 ---
