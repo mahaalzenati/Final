@@ -276,7 +276,7 @@ If I continued developing this project, I would:
 
 **Live Demo:** [Link]
 
-**Workflow:** [Link]
+**Workflow:** [https://zapier.com/editor/00000000-0000-c000-8000-000383165820/published]
 
 **Repository:** [Link]
 
@@ -284,6 +284,6 @@ If I continued developing this project, I would:
 
 ## 👩‍💻 Author
 
-**[Your Name]**
+**[Maha Alzenati]**
 
-[LinkedIn] · [GitHub]
+[LinkedIn](https://www.linkedin.com/in/maha-alzenati-gamedev/) · [GitHub](https://github.com/mahaalzenati)
