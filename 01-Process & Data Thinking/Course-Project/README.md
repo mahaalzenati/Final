@@ -1,5 +1,5 @@
 
-# [AI Client Intake & Request Routing System]
+# AI Client Intake & Request Routing System
 
 
 
