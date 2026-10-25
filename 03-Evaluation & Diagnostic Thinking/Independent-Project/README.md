@@ -184,7 +184,6 @@
 - **المشكلات المكتشفة:** [الصورة الأولى](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/5.png) · [الصورة الثانية](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/6.png)
 - **إعادة الاختبار بعد الإصلاح:** [الصورة الأولى](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/7.png) · [الصورة الثانية](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/9.png) · [الصورة الثالثة](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/8.png)
 
-**ملاحظة:** تغطي هذه النتائج الاختبارات المذكورة أعلاه فقط، ولا تثبت اختبار جميع وظائف المنصة، مثل دقة البحث الدلالي في جميع الحالات، والإشعارات، وكامل سياسات الأمان.
 
 
 ## ⚠️ التحديات المحتملة
@@ -195,7 +194,6 @@
 - **تنسيق المحتوى التقني:** يجب الحفاظ على سلامة الأكواد ورسائل الخطأ الإنجليزية داخل واجهة عربية.
 - **توثيق نجاح الحلول:** يجب الفصل بين الإجابة المقترحة والنتيجة التي أكدها المستخدم بعد تجربة الحل.
 
-هذه تحديات متوقعة من متطلبات المشروع، وليست بالضرورة مشكلات حدثت أثناء التنفيذ.
 
 ## 📚 ما يمكن تعلمه من المشروع
 
