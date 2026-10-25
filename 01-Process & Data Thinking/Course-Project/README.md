@@ -1,7 +1,10 @@
 
-# [Project Name]
+# [AI Client Intake & Request Routing System]
 
-> [One-sentence description of what this project does.]
+
+
+أتمتة استقبال طلبات العملاء عبر Zapier، وتلخيصها باستخدام الذكاء الاصطناعي، والتحقق من اكتمال معلوماتها، ثم توجيهها تلقائيًا إلى المسار المناسب حسب حالة الطلب.
+
 
 ---
 
@@ -302,7 +305,7 @@ If I continued developing this project, I would:
 
 **Live Demo:** [Link]
 
-**Workflow:** [Link]
+**Workflow:** []
 
 **Repository:** [Link]
 
