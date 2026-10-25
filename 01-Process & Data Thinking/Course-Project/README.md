@@ -313,6 +313,6 @@ If I continued developing this project, I would:
 
 ## 👩‍💻 Author
 
-**[Your Name]**
+**[Maha Alzenati]**
 
 [LinkedIn] · [GitHub]
