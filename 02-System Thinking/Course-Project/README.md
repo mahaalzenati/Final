@@ -155,11 +155,11 @@
 ### النتيجة النهائية
 
 
-[Test](Screenshot/Test1)
+[Test](/Screenshots/Test1.png)
 
-[Test](Screenshot/Test1.1)
+[Test](/Screenshots/Test1.1.png)
 
-[Test](Screenshot/Test1.2)
+[Test](/Screenshots/Test1.2.png)
 
 
 ---
