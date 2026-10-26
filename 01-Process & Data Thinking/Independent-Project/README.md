@@ -230,7 +230,7 @@ What does AI do in this solution?
 
 ### Workflow
 
-![Workflow](./screenshots/workflow.png)
+![Workflow](./Screenshots/workflow.png)
 
 ---
 
