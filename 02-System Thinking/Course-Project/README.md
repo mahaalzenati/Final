@@ -155,11 +155,11 @@
 ### النتيجة النهائية
 
 
-[Test](<02-System Thinking/Course-Project/Screenshots/Test1.png>)
+[Test](./Screenshots/Test1.png>)
 
-[Test](<02-System Thinking/Course-Project/Screenshots/Test1.1.png>)
+[Test](./Screenshots/Test1.1.png>)
 
-[Test](<02-System Thinking/Course-Project/Screenshots/Test1.2.png>)
+[Test](./Screenshots/Test1.2.png>)
 
 
 ---
