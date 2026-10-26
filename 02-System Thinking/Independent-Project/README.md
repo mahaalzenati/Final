@@ -233,7 +233,8 @@
 
 أضيفي لقطة شاشة للصفحة الرئيسية للموقع بعد التحقق منها.
 
-![النتيجة النهائية](./screenshots/final-result.png)
+![النتيجة النهائية]
+(./Screenshots/portfolio.png)
 
 ---
 
@@ -287,7 +288,8 @@
 ## 🔗 روابط المشروع
 
 - **العرض التجريبي المباشر:** [https://portfolio-maha.lovable.app]
-- **مستودع GitHub:** [أضيفي رابط المستودع]
+- **مستودع GitHub:**
+   [https://github.com/mahaalzenati/portfolio-maha]
 
 ---
 
