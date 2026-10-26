@@ -35,7 +35,7 @@
 
 ### 01 — Guided Project
 
-**Project:** [Course Project Name]
+**Project:** [AI Client Intake & Request Routing System]
 
 مشروع عملي أطبّق فيه مفاهيم تحليل العمل وتصميم عملية أتمتة تعتمد على AI.
 
@@ -43,11 +43,11 @@
 - **Solution:** [وصف مختصر للحل]
 - **Tools:** [الأدوات المستخدمة]
 
-[Explore the Project](./course-project/)
+[Explore the Project](https://zapier.com/editor/383094876/draft/383094876/fields)
 
 ### 02 — Independent Project
 
-**Project:** [Independent Project Name]
+**Project:** [IT Support]
 
 مشروع مستقل أطبّق فيه ما تعلمته على مشكلة مختلفة، مع تصميم الحل وتنفيذه وتوثيق النتائج.
 
@@ -55,7 +55,7 @@
 - **Solution:** [وصف مختصر للحل]
 - **Tools:** [الأدوات المستخدمة]
 
-[Explore the Project](./independent-project/)
+[Explore the Project](https://zapier.com/editor/00000000-0000-c000-8000-000383165820/published)
 
 ---
 
