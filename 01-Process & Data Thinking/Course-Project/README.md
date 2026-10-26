@@ -253,11 +253,11 @@ We need it next month.
 
 [Test1](./Screenshots/Test1.png)
 
-[Test2](Screenshots/Test2.png)
+[Test2](./Screenshots/Test2.png)
 
 ### Workflow
 
-[Workflow](Screenshots/workflow.png)
+[Workflow](./Screenshots/workflow.png)
 
 ---
 
