@@ -93,8 +93,8 @@
 
 ## 🔗 Related Projects
 
-- [Guided Project](./course-project/)
-- [Independent Project](./independent-project/)
+- [Guided Project](https://zapier.com/editor/383094876/draft/383094876/fields)
+- [Independent Project](https://zapier.com/editor/00000000-0000-c000-8000-000383165820/published)
 
 ---
 
