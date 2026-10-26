@@ -207,8 +207,8 @@
 ## 🔗 روابط المشروع
 
 - **العرض التجريبي المباشر:** [https://dev-alignment-helper.lovable.app]
-- *.
-- **مستودع GitHub:** [أضيفي رابط المستودع]
+- **مستودع GitHub:**
+     [https://github.com/mahaalzenati/dev-alignment-helper]
 
 ---
 
