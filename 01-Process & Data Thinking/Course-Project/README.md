@@ -1,10 +1,9 @@
 
 # AI Client Intake & Request Routing System
 
+[🇬🇧 English](README.md) | [🇵🇸 العربية](README.ar.md)
 
-
-أتمتة استقبال طلبات العملاء عبر Zapier، وتلخيصها باستخدام الذكاء الاصطناعي، والتحقق من اكتمال معلوماتها، ثم توجيهها تلقائيًا إلى المسار المناسب حسب حالة الطلب.
-
+Automating client request intake using Zapier, summarizing requests with AI, validating information completeness, and automatically routing each request to the appropriate path based on its status.
 
 ---
 
@@ -12,35 +11,37 @@
 
 ### The Context
 
-تستقبل شركة الخدمات طلبات من العملاء المحتملين، وتحتاج إلى تحليل كل طلب لفهم احتياجات العميل، وتنظيم المعلومات، وتحديد الخطوة التالية المناسبة.
+A service company receives requests from potential clients and needs to analyze each request to understand client needs, organize information, and determine the appropriate next step.
 
 ### The Problem
 
-تعتمد الشركة على المعالجة اليدوية لطلبات العملاء، حيث يراجع الموظف كل طلب لفهم محتواه، واستخراج المعلومات الأساسية، والتحقق من اكتمالها، ثم تحديد الإجراء المناسب.
+The company relies on manual processing of client requests. Employees review each request to understand its content, extract key information, verify its completeness, and determine the appropriate action.
 
-مع تزايد عدد الطلبات، تصبح هذه العملية أكثر استهلاكًا للوقت والجهد، وقد تؤدي إلى تأخير الاستجابة للعملاء أو عدم اكتشاف المعلومات الناقصة بسهولة.
+As the number of requests increases, this process becomes more time-consuming and effort-intensive. It may also lead to delayed responses to clients or make it difficult to identify missing information.
 
 ### Why It Matters
 
-يساعد تحسين هذه العملية على تقليل الوقت والجهد اللازمين لمعالجة الطلبات، وتسريع الاستجابة للعملاء، وتحسين تنظيم المعلومات ودقتها. كما يتيح للموظفين التركيز على تقييم احتياجات العملاء واتخاذ القرارات المناسبة بدلًا من قضاء وقت طويل في المراجعة والتصنيف اليدوي.
+Improving this process helps reduce the time and effort required to handle requests, accelerate client responses, and improve information organization and accuracy.
+
+It also allows employees to focus on evaluating client needs and making appropriate decisions instead of spending excessive time on manual review and classification.
 
 ---
 
 ## 💡 Solution
 
-تم تصميم سير عمل منظم لاستقبال طلبات العملاء ومعالجتها، بدءًا من استلام الطلب وفهم احتياجات العميل، مرورًا باستخراج المعلومات وتنظيمها والتحقق من اكتمالها، وصولًا إلى تحديد الإجراء المناسب وتوجيه الطلب إلى الشخص المعني.
+A structured workflow was designed to receive and process client requests, starting with collecting the request and understanding client needs, followed by extracting, organizing, and validating information completeness, and finally determining the appropriate action and routing the request to the responsible person.
 
-تتضمن العملية أيضًا تسجيل نتائج المعالجة وإشعار الشخص المسؤول، مما يساعد على تحسين تنظيم الطلبات، وتقليل الجهد اليدوي، وتسهيل متابعة كل طلب واتخاذ الخطوة التالية المناسبة.
+The process also includes recording processing results and notifying the responsible person. This helps improve request organization, reduce manual effort, and make it easier to track each request and determine the appropriate next step.
 
 ### What does the system do?
 
-1. **استقبال الطلبات:** جمع طلبات العملاء عبر Google Forms وتسجيلها في Google Sheets.
-2. **فهم الطلبات:** تحليل محتوى الطلب لتحديد احتياجات العميل والخدمة المطلوبة.
-3. **استخراج المعلومات:** تلخيص الطلب واستخراج البيانات الأساسية، مثل الميزانية والمدة الزمنية عند توفرهما.
-4. **التحقق من البيانات:** اكتشاف المعلومات الناقصة والتحقق من وضوح الطلب وإمكانية معالجته.
-5. **تحديد المسار المناسب:** توجيه الطلبات المستوفية للشروط للمتابعة، وتحويل الطلبات التي تحتاج إلى توضيح أو تحقق إلى المراجعة البشرية.
-6. **تسجيل النتائج:** تحديث سجل الطلب بنتائج المعالجة وحالته والمسار المحدد له.
-7. **إرسال الإشعارات:** إشعار الشخص المعني بالطلبات الجاهزة للمتابعة أو التي تحتاج إلى مراجعة.
+1. **Request Intake:** Collect client requests through Google Forms and record them in Google Sheets.
+2. **Request Understanding:** Analyze request content to identify client needs and the required service.
+3. **Information Extraction:** Summarize the request and extract key details, such as budget and timeline when available.
+4. **Data Validation:** Identify missing information and verify that the request is clear and can be processed.
+5. **Routing Decision:** Route requests that meet the requirements for follow-up, while sending requests that need clarification or verification for human review.
+6. **Result Logging:** Update the request record with processing results, status, and assigned route.
+7. **Notifications:** Notify the relevant person about requests ready for follow-up or those requiring review.
 
 ---
 
@@ -48,21 +49,25 @@
 
 **Primary Users:**
 
-- الموظفون المسؤولون عن تقييم الطلبات وتحديد الخطوة التالية ومتابعة تنفيذها.
+- Employees responsible for evaluating requests, determining the next step, and following up on their execution.
 
 **User Need:**
 
-- تبسيط وتسريع عملية معالجة طلبات العمل الجديدة.
-- فهم احتياجات العملاء ومتطلبات مشاريعهم بشكل واضح.
-- تنظيم معلومات المشاريع والتحقق من اكتمالها.
-- تسهيل تقييم الطلبات وتحديد الخطوة التالية المناسبة لكل مشروع.
-- تقليل الجهد اليدوي وتحسين كفاءة متابعة طلبات العملاء.
+- Simplify and accelerate the processing of new business requests.
+- Clearly understand client needs and project requirements.
+- Organize project information and verify its completeness.
+- Make it easier to evaluate requests and determine the appropriate next step for each project.
+- Reduce manual effort and improve the efficiency of client request follow-up.
 
 ---
 
 ## 🧠 How I Designed the Solution
 
-تم تصميم الحل لأتمتة المراحل الأولية لمعالجة طلبات العمل، مع الحفاظ على دور الإنسان في مراجعة الطلبات التي تحتاج إلى تدخل. يعتمد النظام على استخدام الذكاء الاصطناعي لفهم الطلبات واستخراج المعلومات المهمة، إلى جانب قواعد محددة للتحقق من اكتمال البيانات وتحديد مسار كل طلب. كما تم اعتماد Google Forms لاستقبال الطلبات وGoogle Sheets لتخزينها وتتبع حالتها، مع إرسال إشعارات لتسهيل المتابعة وتسريع اتخاذ الإجراءات المناسبة.
+The solution was designed to automate the initial stages of processing business requests while maintaining human involvement in reviewing requests that require intervention.
+
+The system uses AI to understand requests and extract important information, alongside predefined rules to validate data completeness and determine the appropriate route for each request.
+
+Google Forms was selected for collecting requests, while Google Sheets is used to store them and track their status. Notifications are also sent to simplify follow-up and accelerate appropriate actions.
 
 ---
 
@@ -71,38 +76,42 @@
 ```text
 ┌──────────────────────────────────────┐
 │                Input                 │
-│       استقبال طلب العمل عبر          │
-│           Google Forms               │
+│       Submit a business request      │
+│           via Google Forms           │
 └──────────────────┬───────────────────┘
                    ↓
 ┌──────────────────────────────────────┐
 │            Data Storage              │
-│       تسجيل الطلب في Google Sheets   │
+│      Record the request in           │
+│          Google Sheets               │
 └──────────────────┬───────────────────┘
                    ↓
 ┌──────────────────────────────────────┐
 │           AI Processing              │
-│  فهم الطلب وتلخيصه واستخراج           │
-│          المعلومات الأساسية          │
+│    Understand and summarize the      │
+│       request and extract key        │
+│            information               │
 └──────────────────┬───────────────────┘
                    ↓
 ┌──────────────────────────────────────┐
 │        Validation & Routing          │
-│    التحقق من اكتمال المعلومات        │
-│       وتحديد المسار المناسب          │
+│      Validate information            │
+│       completeness and determine     │
+│         the appropriate route        │
 └──────────────────┬───────────────────┘
                    ↓
 ┌──────────────────────────────────────┐
 │               Output                 │
-│     تحديث سجل الطلب وإرسال إشعار     │
-│           للشخص المعني               │
+│       Update the request record      │
+│       and notify the relevant        │
+│               person                 │
 └──────────────────┬───────────────────┘
                    ↓
-          ┌────────┴────────┐
-          ↓                 ↓
+           ┌───────┴────────┐
+           ↓                ↓
 ┌─────────────────┐  ┌─────────────────┐
 │ Ready for       │  │ Human Review    │
-│ Follow-up       │  │ المراجعة البشرية│
+│ Follow-up       │  │                 │
 └─────────────────┘  └─────────────────┘
 ```
 
@@ -112,21 +121,21 @@
 
 ### What does AI do in this solution?
 
-يُستخدم الذكاء الاصطناعي في معالجة طلبات العمل لفهم محتواها واستخراج المعلومات المهمة منها، وتشمل مهامه:
+AI is used to process business requests by understanding their content and extracting important information. Its responsibilities include:
 
-- **فهم الطلب:** تحليل نص طلب العمل وتحديد الخدمة التي يحتاج إليها العميل.
-- **تلخيص الطلب:** إنشاء ملخص واضح لمتطلبات المشروع.
-- **استخراج المعلومات:** تحديد المعلومات الأساسية، مثل نوع الخدمة والميزانية والمدة الزمنية عند توفرها.
-- **كشف المعلومات الناقصة:** تحديد البيانات غير المتوفرة التي قد تكون ضرورية لفهم الطلب وتقييمه.
-- **دعم اتخاذ القرار:** توفير المعلومات اللازمة لتطبيق قواعد التحقق وتحديد ما إذا كان الطلب جاهزًا للمتابعة أو يحتاج إلى مراجعة بشرية.
+- **Request Understanding:** Analyze the business request text and identify the service the client needs.
+- **Request Summarization:** Generate a clear summary of project requirements.
+- **Information Extraction:** Identify key details, such as service type, budget, and timeline when available.
+- **Missing Information Detection:** Identify unavailable information that may be necessary to understand and evaluate the request.
+- **Decision Support:** Provide the information needed to apply validation rules and determine whether a request is ready for follow-up or requires human review.
 
 ### What AI Should NOT Do
 
-- **افتراض المعلومات الناقصة:** عدم تخمين الميزانية أو المدة الزمنية أو أي تفاصيل لم يذكرها العميل.
-- **تجاوز قواعد العمل المحددة:** يجب أن تتم معالجة الطلبات وفق القواعد والمعايير المعتمدة في النظام.
-- **تجاوز المراجعة البشرية:** تحويل الطلبات غير الواضحة أو التي تحتاج إلى تحقق إضافي إلى الموظف المسؤول.
-- **إرسال وعود أو التزامات للعملاء:** عدم تأكيد الأسعار أو مواعيد التسليم أو الموافقة على تنفيذ المشروع دون اعتماد بشري.
-- **تغيير بيانات الطلب دون مبرر:** الحفاظ على المعلومات الأصلية للعميل، مع تسجيل نتائج التحليل بشكل منفصل وواضح.
+- **Assume Missing Information:** Never guess the budget, timeline, or any details that the client has not provided.
+- **Override Defined Business Rules:** Requests must be processed according to the rules and criteria established in the system.
+- **Bypass Human Review:** Unclear requests or those requiring additional verification must be forwarded to the responsible employee.
+- **Make Promises or Commitments to Clients:** Never confirm prices, delivery dates, or project approval without human authorization.
+- **Modify Request Data Without Justification:** Preserve the client's original information while recording analysis results separately and clearly.
 
 ---
 
@@ -134,13 +143,13 @@
 
 ### What parts of the process are automated?
 
-- **استقبال الطلبات وتسجيلها:** جمع طلبات العمل عبر Google Forms وتخزينها تلقائيًا في Google Sheets.
-- **تحليل الطلبات:** استخدام الذكاء الاصطناعي لفهم محتوى الطلب وتحديد الخدمة المطلوبة وتلخيص متطلبات المشروع.
-- **استخراج المعلومات:** استخراج البيانات الأساسية، مثل الميزانية والمدة الزمنية، عند توفرها.
-- **التحقق الأولي:** فحص اكتمال المعلومات ووضوح الطلب وتحديد البيانات الناقصة.
-- **تحديد مسار الطلب:** تطبيق قواعد محددة لتوجيه الطلبات الجاهزة للمتابعة أو التي تحتاج إلى مراجعة بشرية.
-- **تحديث السجلات:** تسجيل نتائج المعالجة وتحديث حالة الطلب والمسار المحدد له.
-- **إرسال الإشعارات:** إخطار الشخص المعني بنتيجة المعالجة والإجراء المطلوب.
+- **Request Intake and Registration:** Collect business requests through Google Forms and automatically store them in Google Sheets.
+- **Request Analysis:** Use AI to understand request content, identify the required service, and summarize project requirements.
+- **Information Extraction:** Extract key details, such as budget and timeline, when available.
+- **Initial Validation:** Check information completeness and request clarity, and identify missing details.
+- **Request Routing:** Apply predefined rules to route requests that are ready for follow-up or those requiring human review.
+- **Record Updates:** Log processing results and update the request status and assigned route.
+- **Notifications:** Notify the relevant person about the processing result and required action.
 
 ---
 
@@ -148,17 +157,17 @@
 
 ### Input
 
-- اسم العميل.
-- الإيميل.
-- طلب العميل.
+- Client name.
+- Email address.
+- Client request.
 
 ### Output
 
-- **Processed Request:** طلب عمل تمت معالجته وتلخيص متطلباته واستخراج المعلومات الأساسية منه.
-- **Validation Results:** نتيجة التحقق من اكتمال المعلومات وتحديد البيانات الناقصة.
-- **Routing Decision:** تحديد ما إذا كان الطلب جاهزًا للمتابعة أو يحتاج إلى مراجعة بشرية.
-- **Updated Record:** تحديث سجل الطلب في Google Sheets بنتائج المعالجة وحالته.
-- **Notification:** إرسال إشعار إلى الشخص المعني بالطلب والإجراء المطلوب.
+- **Processed Request:** A processed business request with summarized requirements and extracted key information.
+- **Validation Results:** The result of checking information completeness and identifying missing details.
+- **Routing Decision:** Determines whether the request is ready for follow-up or requires human review.
+- **Updated Record:** Updates the request record in Google Sheets with processing results and status.
+- **Notification:** Sends a notification to the relevant person about the request and required action.
 
 ---
 
@@ -166,10 +175,10 @@
 
 | Tool | Purpose |
 |---|---|
-| Google Forms | استقبال طلبات العمل وجمع بيانات العملاء |
-| Google Sheets | تخزين الطلبات وتنظيم البيانات وتحديث حالة المعالجة |
-| AI By Zapier | فهم الطلبات وتلخيصها واستخراج المعلومات الأساسية والكشف عن المعلومات الناقصة |
-| Zapier | ربط مراحل سير العمل |
+| Google Forms | Collect business requests and client information |
+| Google Sheets | Store requests, organize data, and update processing status |
+| AI By Zapier | Understand requests, summarize them, extract key information, and detect missing details |
+| Zapier | Connect and automate workflow stages |
 
 ---
 
@@ -177,17 +186,19 @@
 
 ### Decision 1
 
-**Decision:** `VALID` 
-— توجيه طلب العمل إلى فريق الويب (`web_team`) عندما يستوفي جميع شروط التحقق، بما يشمل اكتمال بيانات العميل ووضوح تفاصيل المشروع وتوفر الميزانية والمدة الزمنية.
+**Decision:** `VALID`
 
-**Why:** لضمان أن الطلب يحتوي على المعلومات اللازمة للمتابعة، وتقليل الحاجة إلى التواصل الإضافي مع العميل لاستكمال البيانات.
+Route the business request to the web team (`web_team`) when it meets all validation requirements, including complete client information, clear project details, and an available budget and timeline.
+
+**Why:** To ensure that the request contains the necessary information for follow-up and reduce the need for additional communication with the client to complete missing details.
 
 ### Decision 2
 
-**Decision:** `NEEDS_REVIEW` 
-— تحويل طلب العمل إلى المراجعة البشرية (`human_review`) إذا لم يستوفِ شرطًا واحدًا أو أكثر من شروط التحقق، مثل نقص الميزانية أو المدة الزمنية أو عدم وضوح متطلبات المشروع.
+**Decision:** `NEEDS_REVIEW`
 
-**Why:** لتجنب تمرير الطلبات غير المكتملة أو غير الواضحة إلى فريق التنفيذ قبل مراجعتها واستكمال المعلومات المطلوبة.
+Route the business request to human review (`human_review`) if it fails one or more validation requirements, such as missing budget or timeline information or unclear project requirements.
+
+**Why:** To prevent incomplete or unclear requests from reaching the implementation team before they have been reviewed and the required information has been obtained.
 
 ---
 
@@ -197,24 +208,24 @@
 
 **Input:**
 
-```text
+\`\`\`text
 Client: heba
 Company: google
 Request: We need a website for our company.
 Budget: $5000
 Timeline: next month
-```
+\`\`\`
 
 **Expected Result:**
 
 - `validation_status = VALID`
 - `requires_human = false`
 - `routing = web_team`
-- إرسال إشعار باستلام طلب جاهز للمتابعة.
+- Send a notification confirming receipt of a request that is ready for follow-up.
 
 **Actual Result:**
 
-تم تصنيف الطلب على أنه صالح للمتابعة، مع استخراج اسم العميل والشركة ونوع الخدمة والميزانية والمدة الزمنية، وإرسال إشعار باستلام الطلب.
+The request was classified as valid and ready for follow-up. The system extracted the client's name, company, service type, budget, and timeline, and sent a notification confirming receipt of the request.
 
 **Status:** ✅ Pass
 
@@ -224,24 +235,24 @@ Timeline: next month
 
 **Input:**
 
-```text
+\`\`\`text
 Client: lama
 Company: google
 Missing Information: budget
 Original Request: We need a website for our company.
 We need it next month.
-```
+\`\`\`
 
 **Expected Result:**
 
 - `validation_status = NEEDS_REVIEW`
 - `requires_human = true`
 - `routing = human_review`
-- إرسال إشعار باستلام طلب لمراجعة بشرية.
+- Send a notification confirming receipt of a request requiring human review.
 
 **Actual Result:**
 
-تم تصنيف الطلب على أنه يحتاج إلى مراجعة بشرية.
+The request was classified as requiring human review.
 
 **Status:** ✅ Pass
 
@@ -261,53 +272,11 @@ We need it next month.
 
 ---
 
-## ⚠️ Challenges & Failures
-
-### What didn't work as expected?
-
-- ...
-- ...
-
-### How did I solve it?
-
-- ...
-- ...
-
----
-
-## 📚 What I Learned
-
-### Technical Lesson
-
-...
-
-### Problem-Solving Lesson
-
-...
-
-### AI Lesson
-
-...
-
----
-
-## 🔮 Future Improvements
-
-If I continued developing this project, I would:
-
-- ...
-- ...
-- ...
-
----
-
 ## 🔗 Project Links
-
-**Live Demo:** [Link]
 
 **Workflow:** [https://zapier.com/editor/383094876/draft/383094876/fields]
 
-**Repository:** [Link]
+**Repository:** [https://github.com/mahaalzenati/Final/tree/main]
 
 ---
 
@@ -315,4 +284,4 @@ If I continued developing this project, I would:
 
 **[Maha Alzenati]**
 
-[LinkedIn] · [GitHub]
+[LinkedIn](https://www.linkedin.com/in/maha-alzenati-gamedev/) · [GitHub](https://github.com/mahaalzenati)
