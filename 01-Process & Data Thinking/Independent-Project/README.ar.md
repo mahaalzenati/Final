@@ -293,3 +293,18 @@ flowchart TD
 - تطوير آلية لتتبع حالة كل طلب منذ تقديمه وحتى الانتهاء من معالجته.
 
 ---
+
+## 🔗 Project Links
+
+
+**Workflow:** [https://zapier.com/editor/00000000-0000-c000-8000-000383165820/published]
+
+**Repository:** [https://github.com/mahaalzenati/Final/tree/main]
+
+---
+
+## 👩‍💻 Author
+
+**[Maha Alzenati]**
+
+[LinkedIn](https://www.linkedin.com/in/maha-alzenati-gamedev/) · [GitHub](https://github.com/mahaalzenati)
