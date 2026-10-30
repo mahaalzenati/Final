@@ -167,11 +167,11 @@ Next Steps
 
 ### Final Results
 
-| Test | Screenshot |
-|---|---|
-| Test 1 | [View Screenshot](./Screenshots/Test1.png) |
-| Test 2 | [View Screenshot](./Screenshots/Test1.1.png) |
-| Test 3 | [View Screenshot](./Screenshots/Test1.2.png) |
+[Test 1](./Screenshots/Test1.png) 
+
+[Test 2 ](./Screenshots/Test1.1.png) 
+
+[Test 3](./Screenshots/Test1.2.png) 
 
 ---
 
