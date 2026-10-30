@@ -2,81 +2,205 @@
 # SkillBridge Lite
 [English](README.md) | [العربية](README.ar.md)
 
-
-> A web application that helps students, recent graduates, and early-career professionals understand how well their skills, projects, and experience align with the requirements of a specific career opportunity, and identify areas they can improve.
-
----
-
-## 🎯 Problem
-
-### Context
-Students and recent graduates explore internship and job opportunities, but they may not know how well their current skills, projects, and experience align with the requirements of each opportunity.
-
-### Problem
-Beginners may find it difficult to identify which skills are relevant to a specific opportunity, recognize requirements that are not covered by their current qualifications, and determine appropriate steps to improve their career readiness.
-
-### Why Does This Problem Matter?
-Understanding the relationship between a person's current capabilities and the requirements of career opportunities helps them make more informed career decisions and identify learning and development priorities.
+> تطبيق ويب يساعد الطلاب والخريجين الجدد والمهنيين في بداية مسيرتهم على فهم مدى توافق مهاراتهم ومشاريعهم وخبراتهم مع متطلبات فرصة مهنية محددة، وتحديد المجالات التي يمكنهم تطويرها.
 
 ---
 
-## 💡 Solution
+## 🎯 المشكلة
 
-**SkillBridge Lite** provides a simple interface that allows users to document their professional profiles, explore specific career opportunities, review their requirements, and access a dedicated interface for analyzing their compatibility.
+### السياق
+يستكشف الطلاب والخريجون الجدد فرص التدريب والعمل، لكنهم قد لا يعرفون مدى توافق مهاراتهم ومشاريعهم وخبراتهم الحالية مع متطلبات كل فرصة.
 
-### What Does the System Do?
-1. Allows users to enter and edit their professional profile information.
-2. Displays career opportunities across various technical fields.
-3. Displays details of each opportunity, including its description, required skills, and responsibilities.
-4. Provides a compatibility analysis interface that displays relevant skills, potential gaps, and recommended next steps.
+### المشكلة
+قد يجد المبتدئون صعوبة في تحديد المهارات ذات الصلة بفرصة معينة، ومعرفة المتطلبات التي لا تغطيها مؤهلاتهم الحالية، وتحديد الخطوات المناسبة لتحسين جاهزيتهم المهنية.
 
----
-
-## 👤 Users
-
-**Primary Users**
-- University students.
-- Recent graduates.
-- Early-career professionals.
-
-**Their Needs**
-
-To understand how their documented skills, projects, and experience relate to a specific career opportunity and identify areas that need improvement.
+### لماذا هذه المشكلة مهمة؟
+يساعد فهم العلاقة بين قدرات الشخص الحالية ومتطلبات الفرص المهنية على اتخاذ قرارات مهنية أكثر وعيًا وتحديد أولويات التعلم والتطوير.
 
 ---
 
-## 🧠 How Was the Solution Designed?
+## 💡 الحل
 
-I designed the application around a clear user journey that starts with documenting the professional profile, followed by exploring opportunities and reviewing the details of a selected opportunity, and finally accessing the compatibility analysis interface.
+يوفر **SkillBridge Lite** واجهة بسيطة تتيح للمستخدم توثيق ملفه المهني، واستكشاف فرص مهنية محددة، والاطلاع على متطلباتها، والوصول إلى واجهة مخصصة لتحليل مدى التوافق.
 
-- **Professional Profile-Based Analysis:** Ensuring that the analysis uses the current profile data and the selected opportunity.
-- **Simple Navigation:** Dividing the application into five main interfaces.
-- **Organized Results:** Displaying relevant skills, potential gaps, and next steps.
-- **Transparency:** Distinguishing between actual analysis results and illustrative examples.
+### ماذا يفعل النظام؟
+1. يتيح للمستخدم إدخال ملفه المهني وتعديل بياناته.
+2. يعرض فرص مهنية في مجالات تقنية مختلفة.
+3. يعرض تفاصيل كل فرصة، بما فيها الوصف والمهارات المطلوبة والمسؤوليات.
+4. يوفر واجهة لتحليل التوافق تعرض المهارات ذات الصلة، والفجوات المحتملة، والخطوات التالية الموصى بها.
 
 ---
+## 👤 المستخدمون
 
-## ⚙️ How Does the System Work?
+**المستخدمون الأساسيون**
+- طلاب الجامعات.
+- الخريجون الجدد.
+- المهنيون في بداية مسيرتهم المهنية.
+
+**احتياجاتهم**
+
+فهم مدى ارتباط مهاراتهم ومشاريعهم وخبراتهم الموثقة بفرصة مهنية محددة، والتعرف على المجالات التي يحتاجون إلى تطويرها.
+
+
+
+## 🧠 كيف صممت الحل؟
+
+صممت التطبيق حول رحلة استخدام واضحة تبدأ بتوثيق الملف المهني، ثم استكشاف الفرص والاطلاع على تفاصيل الفرصة المختارة، وصولًا إلى واجهة تحليل التوافق.
+
+- **الاعتماد على الملف المهني:**  أن يستخدم التحليل بيانات الملف الحالي والفرصة المختارة.
+- **بساطة التنقل:** تقسيم التطبيق إلى خمس واجهات رئيسية.
+- **تنظيم النتائج:** عرض المهارات ذات الصلة والفجوات المحتملة والخطوات التالية.
+- **الشفافية:** التمييز بين نتائج التحليل الحقيقي والأمثلة التوضيحية.
+
+
+## ⚙️ كيف يعمل النظام؟
 
 ```text
-Professional Profile
-        ↓
-Explore Career Opportunities
-        ↓
-Select an Opportunity
-        ↓
-View Details and Requirements
-        ↓
-Request Compatibility Analysis
-        ↓
-Use Professional Profile and Opportunity Requirements
-        ↓
-AI Analysis
-        ↓
-Relevant Skills
-Potential Gaps
-Next Steps
-## 🔗 روابط المشروع
+الملف المهني
+     ↓
+استكشاف الفرص المهنية
+     ↓
+اختيار فرصة
+     ↓
+عرض التفاصيل والمتطلبات
+     ↓
+طلب تحليل التوافق
+     ↓
+استخدام الملف المهني ومتطلبات الفرصة
+     ↓
+تحليل الذكاء الاصطناعي
+     ↓
+المهارات ذات الصلة
+الفجوات المحتملة
+الخطوات التالية
+```
+---
+
+## 🤖 دور الذكاء الاصطناعي
+
+### الوظائف المستهدفة
+- مقارنة مهارات المستخدم ومشاريعه وخبراته بمتطلبات الفرصة المختارة.
+- تحديد المعلومات الموجودة في الملف المهني والمرتبطة بالفرصة.
+- إبراز الفجوات المحتملة بين الملف المهني والمتطلبات.
+- اقتراح خطوات عملية للتطوير المهني.
+
+### ما الذي يجب ألا يفعله؟
+- اختلاق مهارات أو مؤهلات أو مشاريع أو خبرات.
+- الادعاء بإجراء تحليل حقيقي دون تنفيذ التحليل بنجاح.
+- اعتبار الفجوات المحتملة دليلًا قاطعًا على عدم أهلية المستخدم.
+- ضمان الحصول على وظيفة أو فرصة تدريب.
+
+---
+
+## 🔄 الأتمتة
+
+- تحديث واجهة الملف المهني عند تعديل البيانات ضمن حالة التطبيق.
+- التنقل بين الواجهات وعرض تفاصيل الفرصة المختارة.
+- الانتقال إلى واجهة تحليل التوافق باستخدام الملف الحالي والفرصة المختارة.
+- إظهار حالات التحميل ونقص البيانات وعدم توفر الخدمة والأخطاء.
+---
+
+## 🗂️ البيانات
+
+### المدخلات
+- الاسم والمسمى المهني.
+- النبذة الشخصية.
+- المهارات والمشاريع والخبرات.
+- الفرصة المهنية المختارة ومتطلباتها.
+
+### المخرجات
+- تفاصيل الفرصة المختارة.
+- المهارات ذات الصلة.
+- الفجوات المحتملة.
+- خطوات مقترحة للتطوير المهني.
+
+---
+
+## 🛠️ الأدوات والتقنيات
+
+| الأداة | الغرض |
+|---|---|
+| Lovable | بناء واجهة التطبيق وتطوير النموذج الأولي |
+
+
+
+---
+
+## 🧪 الاختبار
+
+### الاختبار الأول: تعديل الملف المهني
+
+- **المدخلات:** إدخال بيانات الملف المهني وحفظ التغييرات.
+- **النتيجة المتوقعة:** تحديث بيانات الملف داخل التطبيق.
+- **النتيجة الفعلية:** تم تحديث البيانات وحفظ البيانات الجديدة.
+- **الحالة:** pass.
+
+### الاختبار الثاني: استعراض فرصة مهنية
+
+- **المدخلات:** اختيار فرصة AI Automation Intern.
+- **النتيجة المتوقعة:** عرض اسم الشركة والوصف والمهارات المطلوبة والمسؤوليات وزر تحليل التوافق.
+- **النتيجة الفعلية:** تم عرض كل تفاصيل الفرصة المختارة.
+- **الحالة:** pass.
+
+### الاختبار الثالث: طلب تحليل التوافق
+
+- **المدخلات:** اختيار فرصة والضغط على زر تحليل التوافق.
+- **النتيجة المتوقعة:** إجراء التحليل.
+- **النتيجة الفعلية:** تم تنفيذ التحليل واظهار النتائج المتوقعة.
+- **الحالة:** pass.
+
+---
+
+## 📸 الأدلة
+
+### النتيجة النهائية
+
+
+[Test](./Screenshots/Test1.png)
+
+[Test](./Screenshots/Test1.1.png)
+
+[Test](./Screenshots/Test1.2.png)
+
+
+---
+
+
+
+### تحديات محتملة
+- التعامل مع الملف المهني الفارغ أو غير المكتمل.
+- التأكد من استخدام الفرصة الصحيحة والملف الحالي في التحليل.
+- تجنب عرض نتائج توحي بوجود تحليل حقيقي عندما تكون الخدمة غير متاحة.
+- ضمان سهولة الاستخدام على الهواتف والأجهزة المختلفة.
+
+### أساليب المعالجة المقترحة
+- اختبار حالات نقص البيانات وإظهار رسائل واضحة.
+- التحقق من انتقال البيانات بين الواجهات.
+- الفصل بين التحليل الحقيقي والأمثلة التوضيحية.
+- اختبار التصميم على أحجام شاشات مختلفة.
+
+---
+
+## 📚 ما الذي تعلمته؟
+
+### الدرس التقني
+أهمية إدارة حالة التطبيق وتنظيم التنقل بين الواجهات لتعمل الوظائف الأساسية معًا دون تعقيد تقني غير ضروري.
+
+### درس حل المشكلات
+تحويل مشكلة مهنية عامة إلى رحلة استخدام محددة يساعد على ضبط نطاق الحل والتركيز على الوظائف الأكثر أهمية.
+
+### درس الذكاء الاصطناعي
+وجود واجهة مخصصة للذكاء الاصطناعي لا يعني أن النظام ينفذ تحليلًا حقيقيًا. يجب التمييز بين تصميم الواجهة وتنفيذ خدمة الذكاء الاصطناعي والتحقق من نتائجها.
+
+---
+
+## 🔮 التحسينات المستقبلية
+
+- دمج خدمة ذكاء اصطناعي فعلية لتحليل التوافق مع توضيح أساس التقييم وحدوده.
+- إضافة قاعدة بيانات اختيارية لحفظ الملف المهني واسترجاعه بين الجلسات.
+- توسيع مجموعة الفرص المهنية مع الحفاظ على موثوقية بيانات المتطلبات.
+- تحسين التوصيات لتحديد أولويات تطوير المهارات.
+
 
 - **العرض التجريبي المباشر:** [https://dev-alignment-helper.lovable.app]
 - **مستودع GitHub:**
