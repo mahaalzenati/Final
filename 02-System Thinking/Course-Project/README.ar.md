@@ -211,11 +211,11 @@
 - **مستودع GitHub:**
      [https://github.com/mahaalzenati/dev-alignment-helper]
 
+
 ---
 
-## 👩‍💻 صاحبة المشروع
+## 👩‍💻 Author
 
-**Maha Alzenati**
+**[Maha Alzenati]**
 
-
-
+[LinkedIn](https://www.linkedin.com/in/maha-alzenati-gamedev/) · [GitHub](https://github.com/mahaalzenati)
