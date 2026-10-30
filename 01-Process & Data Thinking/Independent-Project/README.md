@@ -1,5 +1,7 @@
 
 # IT Support Request Automation System
+[English](README.md) | [العربية](README.ar.md)
+
 
 Automating IT support request processing using Zapier and AI to summarize requests, identify missing information, and route them to the appropriate path while recording and forwarding them to the relevant teams.
 
