@@ -1,10 +1,8 @@
 # AI Client Intake & Request Routing System
 
+[العربية](README.ar.md) | [English](README.md)
 
 أتمتة استقبال طلبات العملاء عبر Zapier، وتلخيصها باستخدام الذكاء الاصطناعي، والتحقق من اكتمال معلوماتها، ثم توجيهها تلقائيًا إلى المسار المناسب حسب حالة الطلب.
-
-
-[العربية](README.ar.md) | [English](README.md)
 
 ---
 
