@@ -1,6 +1,7 @@
-# [IT support]
 
-> أتمتة معالجة طلبات الدعم الفني باستخدام Zapier والذكاء الاصطناعي لتلخيص الطلبات، والتحقق من المعلومات الناقصة، وتوجيهها إلى المسار المناسب مع تسجيلها وإحالتها للجهات المختصة.
+# IT Support Request Automation System
+
+Automating IT support request processing using Zapier and AI to summarize requests, identify missing information, and route them to the appropriate path while recording and forwarding them to the relevant teams.
 
 ---
 
@@ -8,78 +9,84 @@
 
 ### The Context
 
-يستقبل فريق الدعم الفني طلبات الموظفين المتعلقة بالمشكلات التقنية، ويقوم بمراجعتها ومتابعة تفاصيلها لتحديد طبيعة المشكلة والجهة المسؤولة عن معالجتها.
+The IT support team receives employee requests related to technical issues and reviews and follows up on their details to identify the nature of each problem and the team responsible for resolving it.
+
 ### The Problem
 
-يقوم الموظفون بإرسال طلبات الدعم الفني عبر الفورم، مما يجعل تنظيم المشاكل وتصنيفها وتحديد أهميتها يدويًا أمرًا صعبًا.
-
+Employees submit IT support requests through a form, making it difficult to manually organize, categorize, and determine the priority of reported issues.
 
 ### Why It Matters
 
-- تقليل المهام اليدوية المتكررة.
-- تحسين وضوح طلبات الدعم الفني وتنظيمها.
-- اكتشاف المعلومات الناقصة قبل متابعة معالجة الطلب.
-- توجيه الطلبات إلى المسار المناسب وفقًا لشروط محددة.
-- تسهيل تسجيل الطلبات ومتابعتها من قبل فريق الدعم الفني.
+- Reduce repetitive manual tasks.
+- Improve the clarity and organization of IT support requests.
+- Identify missing information before proceeding with request processing.
+- Route requests to the appropriate path based on predefined conditions.
+- Make it easier for the IT support team to record and track requests.
+
 ---
 
 ## 💡 Solution
 
-أتمتة تعتمد على الذكاء الاصطناعي لتلخيص مشاكل الموظفين، وتصنيف أنواعها، وتحديد أهميتها، وتوجيه الطلبات إلى الدعم الفني أو المراجعة البشرية.
-What does the system do?
+An AI-powered automation workflow designed to summarize employee issues, identify missing information, and route requests to either the IT support team or human review.
 
-1. يستقبل طلبات الدعم الفني من خلال Google Forms.
-2. يستخدم AI by Zapier لتلخيص الطلب ومراجعة المعلومات الناقصة.
-3. يوجّه الطلب وفقًا لحالته وشروط سير العمل.
-4. يسجّل الطلبات التي تتبع المسار الاعتيادي في Google Sheets ويرسلها إلى فريق الدعم الفني.
-5. يوجّه الطلبات التي تحتاج إلى مراجعة إضافية إلى مسار المراجعة البشرية.
+### What does the system do?
+
+1. Receives IT support requests through Google Forms.
+2. Uses AI by Zapier to summarize each request and identify missing information.
+3. Routes requests according to their status and predefined workflow conditions.
+4. Records requests following the regular processing path in Google Sheets and sends them to the IT support team.
+5. Routes requests requiring additional review to the human review path.
+
 ---
 
 ## 👤 Users
 
-**Primary Users:**  
+**Primary Users:**
 
-- الموظفون الذين يواجهون مشكلات تقنية.
-- فريق الدعم الفني المسؤول عن متابعة الطلبات ومعالجة المشكلات.
-**User Need:**  
-- **الموظفون:** وسيلة بسيطة لتقديم طلبات الدعم الفني.
-- **فريق الدعم الفني:** طلبات واضحة ومنظمة تحتوي على المعلومات اللازمة لفهم المشكلة.
+- Employees experiencing technical issues.
+- The IT support team responsible for following up on requests and resolving technical problems.
+
+**User Need:**
+
+- **Employees:** A simple way to submit IT support requests.
+- **IT Support Team:** Clear and organized requests containing the information needed to understand each issue.
 
 ---
 
 ## 🧠 How I Designed the Solution
 
-اعتمد تصميم سير العمل على ثلاثة اعتبارات أساسية:
+The workflow was designed around three main considerations:
 
-### 1. جودة المعلومات
-استخدام الذكاء الاصطناعي لتلخيص الطلبات والتحقق من اكتمال المعلومات قبل متابعة معالجتها.
+### 1. Information Quality
 
-### 2. التوجيه الشرطي
-تقسيم سير العمل إلى مسارات مختلفة بدلًا من التعامل مع جميع الطلبات بالطريقة نفسها.
+Using AI to summarize requests and verify information completeness before proceeding with processing.
 
-### 3. المراجعة البشرية
-تخصيص مسار للطلبات التي تحتاج إلى مراجعة إضافية، بدلًا من الاعتماد على المعالجة الآلية في جميع الحالات.
+### 2. Conditional Routing
 
+Dividing the workflow into different paths instead of handling all requests in the same way.
+
+### 3. Human Review
+
+Providing a dedicated path for requests that require additional review instead of relying entirely on automated processing in every case.
+
+---
 
 ## ⚙️ How It Works
 
-
-## ⚙️ آلية عمل النظام (How It Works)
-
 ```mermaid
 flowchart TD
-    A["👤 الموظف"] --> B["Google Forms<br/>استقبال طلب الدعم الفني"]
-    B --> C["AI by Zapier<br/>تلخيص الطلب والتحقق من المعلومات الناقصة"]
-    C --> D{"هل المعلومات مكتملة؟"}
+    A["👤 Employee"] --> B["Google Forms<br/>IT Support Request Intake"]
+    B --> C["AI by Zapier<br/>Summarize Request & Identify Missing Information"]
+    C --> D{"Is the information complete?"}
 
-    D -->|نعم| E["تحديث سجل الطلب<br/>في Google Sheets"]
-    D -->|لا| F["تحديث سجل الطلب<br/>في Google Sheets"]
+    D -->|Yes| E["Update Request Record<br/>in Google Sheets"]
+    D -->|No| F["Update Request Record<br/>in Google Sheets"]
 
-    E --> G["إرسال إشعار بالبريد الإلكتروني<br/>إلى فريق الدعم الفني"]
-    F --> H["إرسال إشعار بالبريد الإلكتروني<br/>إلى فريق الدعم الفني"]
+    E --> G["Send Email Notification<br/>to IT Support Team"]
+    F --> H["Send Email Notification<br/>to IT Support Team"]
 
-    G --> I["ملخص الطلب وتفاصيله"]
-    H --> J["تفاصيل الطلب<br/>والمعلومات الناقصة"]
+    G --> I["Request Summary & Details"]
+    H --> J["Request Details<br/>& Missing Information"]
 
     classDef input fill:#e8f2ff,stroke:#3973ac,color:#17365d
     classDef ai fill:#f0e8ff,stroke:#805ad5,color:#44306b
@@ -98,31 +105,31 @@ flowchart TD
 
 ## 🤖 Role of AI
 
-What does AI do in this solution?
+### What does AI do in this solution?
 
-- تلخيص طلبات الدعم الفني.
-- تحديد المعلومات التي تبدو ناقصة أو غير كافية لفهم المشكلة.
-- تقديم مخرجات تساعد في معالجة الطلب وتوجيهه وفقًا لمنطق سير العمل.
+- **Request Summarization:** Summarize IT support requests.
+- **Missing Information Detection:** Identify information that appears to be missing or insufficient to understand the reported issue.
+- **Processing Support:** Provide outputs that help process and route requests according to the workflow logic.
 
 ### What AI Should NOT Do
 
-- اختلاق معلومات لم يقدّمها الموظف.
-- اعتبار المعلومات الناقصة معلومات مؤكدة.
-- اتخاذ قرارات تتطلب حكمًا بشريًا دون إتاحة مسار للمراجعة عند الحاجة.
-- استبدال دور فريق الدعم الفني في تشخيص المشكلات وحلها.
+- **Invent Information:** Never generate information that the employee has not provided.
+- **Assume Missing Information Is Confirmed:** Never treat missing information as verified information.
+- **Make Decisions Requiring Human Judgment Without Review:** Ensure that requests can be sent for human review when necessary.
+- **Replace the IT Support Team:** AI should not replace the IT support team's role in diagnosing and resolving technical issues.
+
 ---
 
 ## 🔄 Automation
 
+The automated tasks in this project include:
 
-تشمل المهام المؤتمتة في المشروع:
-
-- استقبال طلبات الموظفين من النموذج.
-- تلخيص الطلبات باستخدام الذكاء الاصطناعي.
-- مراجعة المعلومات المقدمة وتحديد النواقص المحتملة.
-- توجيه الطلبات وفقًا للشروط المحددة في سير العمل.
-- تسجيل الطلبات في Google Sheets للمسار المخصص لذلك.
-- إرسال الطلبات إلى فريق الدعم الفني أو توجيهها إلى مسار المراجعة البشرية.
+- Receiving employee requests through the form.
+- Summarizing requests using AI.
+- Reviewing submitted information and identifying potential missing details.
+- Routing requests according to predefined workflow conditions.
+- Recording requests in Google Sheets for the designated processing path.
+- Sending requests to the IT support team or routing them to the human review path.
 
 ---
 
@@ -130,93 +137,100 @@ What does AI do in this solution?
 
 ### Input
 
-البيانات التي يقدّمها الموظف من خلال Google Forms، مثل:
--اسم الموظف.
--ايميل الموظف.
--وصف المشكلة التقنية.
+Information submitted by employees through Google Forms, such as:
+
+- Employee name.
+- Employee email address.
+- Description of the technical issue.
+
 ### Output
 
-- ملخص للطلب تم إنشاؤه بواسطة الذكاء الاصطناعي.
-- تحديد المعلومات التي قد تكون ناقصة.
-- توجيه الطلب إلى المسار المناسب.
-- تسجيل الطلب في Google Sheets عند اتباع المسار الاعتيادي.
-- إرسال الطلب إلى فريق الدعم الفني أو إحالته إلى المراجعة البشرية، وفقًا لمسار المعالجة.
+- **AI-Generated Summary:** A summary of the submitted request.
+- **Missing Information:** Identification of information that may be missing.
+- **Routing Decision:** Directing the request to the appropriate path.
+- **Request Record:** Recording the request in Google Sheets when it follows the regular processing path.
+- **Notification:** Sending the request to the IT support team or forwarding it for human review, depending on the processing path.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| الأداة | الاستخدام |
+| Tool | Purpose |
 |---|---|
-| Zapier | إنشاء سير العمل وربط خطوات الأتمتة |
-| Google Forms | استقبال طلبات الدعم الفني |
-| AI by Zapier | تلخيص الطلبات ومراجعة المعلومات |
-| Google Sheets | تسجيل الطلبات وتنظيم بياناتها |
-| Gmail| إرسال الطلبات إلى الجهة المعنية |
+| Zapier | Building the workflow and connecting automation steps |
+| Google Forms | Collecting IT support requests |
+| AI by Zapier | Summarizing requests and reviewing information |
+| Google Sheets | Recording requests and organizing their data |
+| Gmail | Sending requests to the relevant team |
 
 ---
 
 ## 🔑 Key Design Decisions
-**القرار 1: التحقق من اكتمال معلومات الطلب**
 
-**القرار**  
-تقسيم الطلبات إلى مسارين بناءً على اكتمال المعلومات المقدمة من الموظف.
+### Decision 1: Validating Request Information Completeness
 
-**السبب**
-لضمان التمييز بين الطلبات التي تحتوي على معلومات كافية للمتابعة والطلبات التي تحتاج إلى استكمال معلوماتها.
+**Decision:**
 
+Divide requests into two paths based on the completeness of the information provided by the employee.
 
-**القرار 2: تخصيص الإشعارات حسب حالة الطلب**
+**Why:**
 
-**القرار**  
-إرسال إشعار بالبريد الإلكتروني لفريق الدعم الفني بمحتوى مختلف حسب نتيجة التحقق؛ يتضمن تفاصيل الطلب وملخصه عند اكتمال المعلومات، أو يوضح المعلومات الناقصة عند عدم اكتمالها.
+To distinguish between requests containing sufficient information for follow-up and requests that need additional information.
 
-  **السبب**
-  
-مساعدة فريق الدعم الفني على فهم حالة كل طلب وتحديد الإجراء المناسب دون الحاجة إلى مراجعة جميع التفاصيل يدويًا في كل مرة.
+### Decision 2: Customizing Notifications Based on Request Status
+
+**Decision:**
+
+Send email notifications to the IT support team with different content depending on the validation result.
+
+When information is complete, the notification includes the request details and summary. When information is incomplete, it highlights the missing information.
+
+**Why:**
+
+To help the IT support team understand the status of each request and determine the appropriate action without manually reviewing all details every time.
 
 ---
 
 ## 🧪 Testing
 
-### Test 1
+### Test 1: Complete IT Support Request
 
-**المدخلات:**
+**Input:**
 
-طلب دعم فني يحتوي على معلومات كافية لفهم المشكلة.
+An IT support request containing sufficient information to understand the reported issue.
 
-**النتيجة المتوقعة:**
+**Expected Result:**
 
-- إنشاء ملخص للطلب.
-- اتباع مسار المعالجة الاعتيادية وفقًا للشروط المحددة.
-- تسجيل الطلب في Google Sheets.
-- إرسال الطلب إلى فريق الدعم الفني.
+- Generate a summary of the request.
+- Follow the regular processing path according to the predefined conditions.
+- Record the request in Google Sheets.
+- Send the request to the IT support team.
 
+**Actual Result:**
 
-**النتيجة الفعلية**  
-تم توجيه الطلب لمسار المعالجة الصحيح وتحديث سجل الطلب وارسال اشعار لفريق الدعم بالتفاصيل.
+The request was routed through the correct processing path, the request record was updated, and a notification containing the request details was sent to the support team.
 
-**Status:** ✅
+**Status:** ✅ Pass
 
 ---
 
-### Test 2
+### Test 2: IT Support Request with Missing Information
 
-**المدخلات:**
+**Input:**
 
-طلب دعم فني يفتقر إلى بعض التفاصيل المهمة لفهم المشكلة.
+An IT support request missing some important details needed to understand the issue.
 
-**النتيجة المتوقعة:**
+**Expected Result:**
 
-- تحديد المعلومات الناقصة المحتملة.
-- توجيه الطلب وفقًا لشروط سير العمل.
-- إحالته إلى المسار المناسب بحسب نتيجة المراجعة.
+- Identify potentially missing information.
+- Route the request according to the workflow conditions.
+- Forward it to the appropriate path based on the review result.
 
-**النتيجة الفعلية**
-تم توجيه الطلب لمسار المراجعة البشرية وتديث سجل الطلب وارسال اشعار لفريق الدعم بحالة الطلب وتفاصيله.
-...
+**Actual Result:**
 
-**Status:** ✅ 
+The request was routed to the human review path, the request record was updated, and a notification containing the request status and details was sent to the support team.
+
+**Status:** ✅ Pass
 
 ---
 
@@ -236,15 +250,19 @@ What does AI do in this solution?
 
 ## ⚠️ Challenges & Failures
 
-What didn't work as expected?
+### What were the main challenges?
 
-- ...
-- ...
+- **Handling Incomplete Requests:** Ensuring that requests with insufficient information are identified instead of being treated as complete.
+- **AI Output Reliability:** Ensuring that AI-generated summaries accurately reflect the employee's original request without inventing missing details.
+- **Conditional Workflow Routing:** Designing separate processing paths to handle complete and incomplete requests correctly.
+- **Data Consistency:** Ensuring that request records are updated and the appropriate notification is sent according to each processing path.
 
-How did I solve it?
+### How did I address these challenges?
 
-- ...
-- ...
+- Used AI to summarize requests and identify potentially missing information.
+- Defined clear workflow conditions to distinguish between complete and incomplete requests.
+- Separated the processing paths to ensure that each request receives the appropriate handling.
+- Connected Google Sheets and Gmail to record request information and notify the relevant team.
 
 ---
 
@@ -252,15 +270,15 @@ How did I solve it?
 
 ### Technical Lesson
 
-...
+I learned how to connect Google Forms, AI by Zapier, Google Sheets, and Gmail to build an automated workflow that processes incoming requests and handles different outcomes using conditional routing.
 
 ### Problem-Solving Lesson
 
-...
+I learned the importance of designing workflows around different scenarios rather than assuming that all incoming requests will contain complete information. Providing separate paths makes the process more organized and easier to manage.
 
 ### AI Lesson
 
-...
+I learned that AI should support information processing rather than make assumptions. It is important to distinguish between provided information and missing details, and to maintain human involvement when additional review is required.
 
 ---
 
@@ -268,19 +286,16 @@ How did I solve it?
 
 If I continued developing this project, I would:
 
-- ...
-- ...
-- ...
+- Introduce request status tracking to monitor progress from submission to resolution.
+- Add automated follow-up notifications for requests that remain unresolved.
 
----
 
 ## 🔗 Project Links
 
-**Live Demo:** [Link]
 
 **Workflow:** [https://zapier.com/editor/00000000-0000-c000-8000-000383165820/published]
 
-**Repository:** [Link]
+**Repository:** [https://github.com/mahaalzenati/Final/tree/main]
 
 ---
 
