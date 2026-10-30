@@ -255,7 +255,8 @@ We need it next month.
 
 ### Workflow
 
-**Workflow:**(./Screenshots/workflow.png)
+[Workflow](./Screenshots/workflow.png)
+
 **Repository:** [https://github.com/mahaalzenati/Final/tree/main]
 
 ---
