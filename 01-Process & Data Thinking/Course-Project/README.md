@@ -1,5 +1,6 @@
 
 # AI Client Intake & Request Routing System
+[English](README.md) | [العربية](README.ar.md)
 
 Automating client request intake using Zapier, summarizing requests with AI, validating information completeness, and automatically routing each request to the appropriate path based on its status.
 
