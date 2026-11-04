@@ -238,7 +238,7 @@ A summary of the client's project details was generated, with the option to down
 
 Add a screenshot of the website's home page after verifying it.
 
-![Final Result](./Screenshots/portfolio.png)
+[Final Result](./Screenshots/portfolio.png)
 
 ---
 
