@@ -17,4 +17,10 @@ A product with an active discount and stock expected to last fewer than 5 days w
 
 The system worked as expected. It successfully detected the low-stock condition, executed the analysis workflow, and generated a replenishment recommendation based on the specialized agents' analyses and the calculated scenarios.
 
-[Result](./Screenshots/T1.png)
+[Result1](./Screenshots/T1.png)
+
+[Result1](./Screenshots/T2.png)
+
+[Result3](./Screenshots/T3.png)
+
+
