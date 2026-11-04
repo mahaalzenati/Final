@@ -1,6 +1,6 @@
 # 📈 Post 01 – Sales Growth & Inventory Readiness
 
-![StockPilot Post 01](./post-01.png)
+![StockPilot Post 01](./post.png)
 
 
 ## Content Objective
