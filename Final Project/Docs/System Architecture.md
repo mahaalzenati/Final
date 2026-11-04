@@ -4,4 +4,4 @@ StockPilot is built around a centralized database and automated workflows orches
 
 
 
-![StockPilot System Architecture](Final%20Project/Screenshots/System%20Architecture.png)
+![StockPilot System Architecture](<Final Project/Screenshots/System Architecture.png>)
