@@ -177,8 +177,8 @@
 
 ### أدلة الاختبار
 
-- **إنشاء حساب:** [عرض الدليل](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/0.png)
-- **حماية بيانات المستخدمين:** [عرض الدليل](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/4.png)
+- **إنشاء حساب:** [عرض الدليل](Screenshots/0.png/.)
+- **حماية بيانات المستخدمين:** [عرض الدليل](./Screenshots/4.png)
 - **نشر سؤال وحفظه:** [عرض الدليل](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/2%20%282%29.png)
 - **إضافة إجابة:** [عرض الدليل](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/3%20%282%29.png)
 - **المشكلات المكتشفة:** [الصورة الأولى](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/5.png) · [الصورة الثانية](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/6.png)
