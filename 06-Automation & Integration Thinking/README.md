@@ -146,5 +146,5 @@ The project demonstrates how to build an integrated application that goes beyond
 
 [Project](https://pixel-perfect-replay-6860.lovable.app)
 
-[Project Workflow](./Json/cs4kFYgWiyMJxGHH-XYZ_Real_Estate_AI_Agent.json)
+[Project Workflow](./Json/o8Mg54dBIewRLAC2-PlanCraft_AI_Generate_Project_Plan.json)
 
