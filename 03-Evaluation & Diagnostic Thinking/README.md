@@ -36,27 +36,45 @@
 
 ### 01 — Guided Project
 
-**Project:** [Course Project Name]
+**Project:** TaskBridge
+
 
 أختبر حلًا عمليًا باستخدام حالات اختبار محددة، وأوثق النتائج وأحدد جوانب التحسين.
 
-- **System Under Test:** [النظام الذي يجري اختباره]
-- **Testing Focus:** [ما الذي أختبره]
-- **Tools:** [الأدوات المستخدمة]
+**System Under Test:** A web application that helps freelancers and early-career professionals transform unclear work requests into organized plans, create and manage tasks, track progress, and save plans for future reference.
 
-[Explore the Project](./course-project/)
+**Testing Focus:**
+-Test 1: Creating and Saving a Plan
+-Test 2: Calculating Plan Progress
+
+**Tools:** Lovable  + Supabase
+
+[Explore the Project](https://pixel-perfect-showcase-8134.lovable.app/)
 
 ### 02 — Independent Project
 
-**Project:** [Independent Project Name]
+**Project:** Tajarob — تجارب
+
 
 أطبق منهجية الاختبار على حل مستقل، وأوثق حالات النجاح والفشل والتحسينات التي أجريتها.
 
-- **System Under Test:** [النظام]
-- **Testing Focus:** [محور الاختبار]
-- **Tools:** [الأدوات المستخدمة]
+**System Under Test:** Tajarob is an Arabic-language technical platform that helps developers and students share programming problems, discover solutions from other people's experiences, and document whether suggested solutions have been successful.
 
-[Explore the Project](./independent-project/)
+
+**Testing Focus:** 
+-Account Registration and Login
+-Logout and Login Again
+-User Data Protection
+-Publish a New Question
+-Search for Similar Questions
+-Prevent Publishing a Question Without a Description
+-Short Description Validation
+-Prevent Users from Answering Their Own Questions
+-Distinguish Between Empty and Short Descriptions
+
+- **Tools:** Lovable  + Supabase
+
+[Explore the Project](https://screenshot-heartbeat.lovable.app/)
 
 ---
 
@@ -93,8 +111,8 @@
 
 ## 🔗 Related Projects
 
-- [Guided Project](./course-project/)
-- [Independent Project](./independent-project/)
+- [Guided Project](https://pixel-perfect-showcase-8134.lovable.app/)
+- [Independent Project](https://screenshot-heartbeat.lovable.app/)
 
 ---
 
