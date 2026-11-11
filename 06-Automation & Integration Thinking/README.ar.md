@@ -1,6 +1,8 @@
 
 # 🧩 PlanCraft AI — Build, Connect, Automate
 
+[English](README.md) | [العربية](README.ar.md)
+
 ## 📌 نظرة عامة
 
 **PlanCraft AI** هو تطبيق يساعد المستخدم على تحويل فكرة المشروع إلى خطة عملية منظمة باستخدام الذكاء الاصطناعي.
