@@ -34,29 +34,48 @@
 
 ### 01 — Guided Project
 
-**Project:** [Course Project Name]
+**Project:** SkillBridge Lite
+
 
 تطبيق عملي أبني فيه حلًا باستخدام AI App Builder، انطلاقًا من مشكلة ومتطلبات واضحة.
 
-- **Problem:** [المشكلة]
-- **Target Users:** [المستخدمون المستهدفون]
-- **Solution:** [الحل]
-- **Tools:** [الأدوات المستخدمة]
+**Problem:** Beginners may find it difficult to identify which skills are relevant to a specific opportunity, recognize requirements that are not covered by their current qualifications, and determine appropriate steps to improve their career readiness.
 
-[Explore the Project](./course-project/)
+**Target Users:** 
+- University students.
+- Recent graduates.
+- Early-career professionals.
+
+**Solution:** SkillBridge Lite provides a simple interface that allows users to document their professional profiles, explore specific career opportunities, review their requirements, and access a dedicated interface for analyzing their compatibility.
+
+
+**Tools:** Lovable
+
+[Explore the Project](https://dev-alignment-helper.lovable.app/)
 
 ### 02 — Independent Project
 
-**Project:** [Independent Project Name]
+**Project:** Portfolio Website | Personal Portfolio
+
 
 تطبيق مستقل أحوّل فيه فكرة إلى تطبيق له مستخدمون ووظائف وتدفق استخدام واضح.
 
-- **Problem:** [المشكلة]
-- **Target Users:** [المستخدمون المستهدفون]
-- **Solution:** [الحل]
-- **Tools:** [الأدوات المستخدمة]
+**Problem:** Visitors may find it difficult to access the information they need or understand the portfolio owner's qualifications, skills, and projects when the information is not well organized or is difficult to navigate.
 
-[Explore the Project](./independent-project/)
+Clients may also face difficulties explaining their project requirements and presenting them in an organized way that helps communicate their needs accurately.
+
+
+ **Target Users:**
+- Recruiters: To review the portfolio owner's qualifications, skills, and projects and evaluate their suitability for job opportunities.
+- Potential Clients: To explore services and projects and determine whether the portfolio owner is suitable for carrying out their   projects.
+  
+**Solution:** Creating an organized and responsive personal portfolio website that presents information, skills, projects, and services clearly, while allowing visitors to access contact channels easily.
+
+The project also includes a proposed AI-powered feature that generates an organized summary of the project requirements entered by the client.
+
+**Tools:** Lovable
+
+[Explore the Project](https://portfolio-maha.lovable.app/)
 
 ---
 
@@ -95,8 +114,8 @@
 
 ## 🔗 Related Projects
 
-- [Guided Project](./course-project/)
-- [Independent Project](./independent-project/)
+- [Guided Project](https://dev-alignment-helper.lovable.app/)
+- [Independent Project](https://portfolio-maha.lovable.app/)
 
 ---
 
