@@ -301,7 +301,6 @@ These are proposed future improvements and are not confirmed features of the cur
 
 **Maha Alzenati**
 
-- **LinkedIn:** [Add Your LinkedIn Profile]
-- **GitHub:** [Add Your GitHub Profile]
+[LinkedIn](https://www.linkedin.com/in/maha-alzenati-gamedev/) · [GitHub](https://github.com/mahaalzenati)
 
 ---
