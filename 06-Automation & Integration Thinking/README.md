@@ -145,3 +145,6 @@ PlanCraft AI is a practical implementation of system integration and process aut
 The project demonstrates how to build an integrated application that goes beyond generating an AI response by managing the entire request lifecycle, from data submission and processing to saving and displaying the final result.
 
 [Project](https://pixel-perfect-replay-6860.lovable.app)
+
+[Project Workflow](./Json/cs4kFYgWiyMJxGHH-XYZ_Real_Estate_AI_Agent.json)
+
