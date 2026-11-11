@@ -179,10 +179,10 @@
 
 - **إنشاء حساب:** [عرض الدليل](Screenshots/0.png/.)
 - **حماية بيانات المستخدمين:** [عرض الدليل](./Screenshots/4.png)
-- **نشر سؤال وحفظه:** [عرض الدليل](./Screenshots/2%20%282%29.png)
-- **إضافة إجابة:** [عرض الدليل](./Screenshots/1(2).png)
-- **المشكلات المكتشفة:** [الصورة الأولى](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/5.png) · [الصورة الثانية](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/6.png)
-- **إعادة الاختبار بعد الإصلاح:** [الصورة الأولى](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/7.png) · [الصورة الثانية](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/9.png) · [الصورة الثالثة](https://github.com/mahaalzenati/screenshot-heartbeat/blob/main/Testing/screenshots/8.png)
+- **نشر سؤال وحفظه:** [عرض الدليل](./Screenshots/1(2).png)
+- **إضافة إجابة:** [عرض الدليل](./Screenshots/3(2).png)
+- **المشكلات المكتشفة:** [الصورة الأولى](./Screenshots/5.png) · [الصورة الثانية](./Screenshots/6.png)
+- **إعادة الاختبار بعد الإصلاح:** [الصورة الأولى](./Screenshots/7.png) · [الصورة الثانية](./Screenshots/9.png) · [الصورة الثالثة](./Screenshots/8.png)
 
 
 
