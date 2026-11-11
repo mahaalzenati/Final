@@ -219,5 +219,4 @@ ScamSpotter demonstrates how AI and workflow automation can help Arabic-speaking
 
 By combining text analysis, image content extraction, link checking, and sensitive data masking, the project provides an accessible initial tool for digital scam awareness while accounting for the limitations of automated analysis and the possibility of errors.
 
- [Project workflow](<05-Agent & Decision Thinking/Indepentent-project/X5LceqigjtCas8nc-ScamSpotter.json>)
-
+[Project Workflow](<05-Agent & Decision Thinking/Indepentent-project/X5LceqigjtCas8nc-ScamSpotter.json>)
