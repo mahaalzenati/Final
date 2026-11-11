@@ -238,7 +238,7 @@ The calculated progress percentage was displayed.
 
 Add a screenshot of the application's final interface after verifying it.
 
-![Final Result](./screenshots/final-result.png)
+[Final Result](./Screenshots/Test.png)
 
 ---
 
@@ -293,7 +293,7 @@ These are proposed future improvements and are not confirmed features of the cur
 ## 🔗 Project Links
 
 - **Live Demo:** [TaskBridge](https://pixel-perfect-showcase-8134.lovable.app)
-- **GitHub Repository:** [Add Repository Link]
+- **GitHub Repository:** [https://github.com/mahaalzenati/Final]
 
 ---
 
