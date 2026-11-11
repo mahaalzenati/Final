@@ -230,9 +230,7 @@
 
 ### النتيجة النهائية
 
-أضيفي لقطة شاشة للواجهة النهائية للتطبيق بعد التحقق منها.
-
-![النتيجة النهائية](./screenshots/final-result.png)
+[النتيجة النهائية](Screenshots/test.png/.)
 
 
 ---
@@ -290,7 +288,7 @@
 ## 🔗 روابط المشروع
 
 - **العرض التجريبي المباشر:** [https://pixel-perfect-showcase-8134.lovable.app]
-- **مستودع GitHub:** [أضيفي رابط المستودع]
+- **مستودع GitHub:**[https://github.com/mahaalzenati/Final/tree/main]
 
 ---
 
