@@ -39,9 +39,17 @@
 
 مشروع عملي أطبّق فيه مفاهيم تحليل العمل وتصميم عملية أتمتة تعتمد على AI.
 
-- **Problem:** [المشكلة التي يعالجها المشروع]
-- **Solution:** [وصف مختصر للحل]
-- **Tools:** [الأدوات المستخدمة]
+**Problem:** The company relies on manual processing of client requests. Employees review each request to understand its content, extract key information, verify its completeness, and determine the appropriate action.
+
+As the number of requests increases, this process becomes more time-consuming and effort-intensive. It may also lead to delayed responses to clients or make it difficult to identify missing information.
+
+
+**Solution:** A structured workflow was designed to receive and process client requests, starting with collecting the request and understanding client needs, followed by extracting, organizing, and validating information completeness, and finally determining the appropriate action and routing the request to the responsible person.
+
+The process also includes recording processing results and notifying the responsible person. This helps improve request organization, reduce manual effort, and make it easier to track each request and determine the appropriate next step.
+
+
+**Tools:** Zapier
 
 [Explore the Project](https://zapier.com/editor/383094876/draft/383094876/fields)
 
