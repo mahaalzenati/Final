@@ -146,3 +146,5 @@ flowchart TD
 يوضح المشروع كيفية بناء تطبيق متكامل يتجاوز توليد إجابة بالذكاء الاصطناعي إلى إدارة دورة الطلب من الإدخال والمعالجة حتى حفظ النتيجة وعرضها
 
 [المشروع](https://pixel-perfect-replay-6860.lovable.app)
+
+[Project Workflow](./Json/o8Mg54dBIewRLAC2-PlanCraft_AI_Generate_Project_Plan.json)
