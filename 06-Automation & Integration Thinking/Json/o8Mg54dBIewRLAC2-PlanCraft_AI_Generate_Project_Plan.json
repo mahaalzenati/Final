@@ -1,0 +1,457 @@
+{
+  "name": "PlanCraft AI — Generate Project Plan",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "plancraft-generate",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "ec9cf623-c6e7-432c-91f7-d44c27615de9",
+      "name": "Webhook",
+      "webhookId": "5e7ca4e5-b9ce-40b1-8770-ead6acc845e6"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "00b527b9-2bc1-43c1-a4dd-64755026e223",
+              "name": "request_id",
+              "value": "={{ $json.body.request_id }}",
+              "type": "string"
+            },
+            {
+              "id": "82a49226-8045-4f9b-bf09-881795fa5e1b",
+              "name": "=",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        224,
+        0
+      ],
+      "id": "b8a99682-150a-4ff5-82c5-8ff47f1db620",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json.body.request_id }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        512,
+        -64
+      ],
+      "id": "c003f918-5690-4c01-a38d-0e422f7a13a1",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Project Title:\n{{ $('Get many rows').item.json.title }}\n\nProject Description:\n{{ $('Get many rows').item.json.description }}\n\nProject Goal:\n{{ $('Get many rows').item.json.goal || 'Not specified' }}\n\nAdditional Context:\n{{ $('Get many rows').item.json.additional_context || 'Not specified' }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "You are a helpful You are PlanCraft AI, an expert project planning assistant.\n\nYour task is to transform a user's project request into a realistic, structured, actionable project plan.\n\nAnalyze the project information carefully before generating the plan.\n\nRULES:\n\n1. Base the plan on the actual project information provided.\n2. Do not invent facts about the user's organization, budget, team, or resources.\n3. If important information is missing, make reasonable and clearly limited assumptions.\n4. Keep the plan practical and relevant to the stated project goal.\n5. Divide the work into 3 to 6 logical phases.\n6. Give every phase a clear title, objective, description, actionable steps, and priority.\n7. Use only High, Medium, or Low for phase priority.\n8. Recommend concrete next actions.\n9. Identify meaningful project risks and practical mitigation strategies.\n10. Provide a reasonable estimated duration. State assumptions when the available information is insufficient for a precise estimate.\n11. Avoid generic advice that does not help move the project forward.\n12. Do not claim that external actions have been completed.\n13. Do not claim that the plan has been saved to the database.\n14. Produce output that follows the required structured output schema exactly.\n\nThe plan should be useful to someone who needs to understand what to do, in what order, and why.\n\nWrite the plan in clear, professional English.\n\nReturn the structured plan only through the required output format.assistant"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        784,
+        128
+      ],
+      "id": "fbc7ac2c-8ea6-438e-b828-50136e776ad5",
+      "name": "AI Agent",
+      "retryOnFail": true,
+      "waitBetweenTries": 2000,
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "projectRef": "uvdjllxzjpnkcwvfujgj",
+        "tableId": "project_plans",
+        "fieldsUi": {
+          "fieldValues": [
+            {
+              "fieldId": "request_id",
+              "fieldValue": "={{ $('Edit Fields').item.json.request_id }}"
+            },
+            {
+              "fieldId": "summary",
+              "fieldValue": "={{ $json.output.summary }}"
+            },
+            {
+              "fieldId": "project_goal",
+              "fieldValue": "={{ $json.output.project_goal }}"
+            },
+            {
+              "fieldId": "phases",
+              "fieldValue": "={{ $json.output.phases }}"
+            },
+            {
+              "fieldId": "recommended_actions",
+              "fieldValue": "={{ $json.output.recommended_actions }}"
+            },
+            {
+              "fieldId": "risks",
+              "fieldValue": "={{ $json.output.risks }}"
+            },
+            {
+              "fieldId": "estimated_duration",
+              "fieldValue": "={{ $json.output.estimated_duration }}"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        1232,
+        64
+      ],
+      "id": "cdf55cf9-1f55-464d-a03e-e1d690a8b8b6",
+      "name": "Create a row",
+      "retryOnFail": true,
+      "waitBetweenTries": 2000,
+      "credentials": {
+        "supabaseOAuth2Api": {
+          "id": "l2wrtRtEYSANbl2B",
+          "name": "Supabase account"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "operation": "update",
+        "projectRef": "uvdjllxzjpnkcwvfujgj",
+        "tableId": "project_requests",
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "id",
+              "condition": "eq",
+              "keyValue": "={{ $('Edit Fields').item.json.request_id }}"
+            }
+          ]
+        },
+        "fieldsUi": {
+          "fieldValues": [
+            {
+              "fieldId": "status",
+              "fieldValue": "=completed"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        1632,
+        -64
+      ],
+      "id": "01e4207f-6bce-415f-969e-87123b38444a",
+      "name": "Update a row",
+      "notesInFlow": false,
+      "credentials": {
+        "supabaseOAuth2Api": {
+          "id": "l2wrtRtEYSANbl2B",
+          "name": "Supabase account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "operation": "update",
+        "projectRef": "uvdjllxzjpnkcwvfujgj",
+        "tableId": "project_requests",
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "id",
+              "condition": "eq",
+              "keyValue": "={{ $('Edit Fields').item.json.request_id }}"
+            }
+          ]
+        },
+        "fieldsUi": {
+          "fieldValues": [
+            {
+              "fieldId": "status",
+              "fieldValue": "processing"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        672,
+        0
+      ],
+      "id": "7b11da98-cf6a-4497-89b8-840b003717bc",
+      "name": "Update a row1",
+      "credentials": {
+        "supabaseOAuth2Api": {
+          "id": "l2wrtRtEYSANbl2B",
+          "name": "Supabase account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "operation": "getAll",
+        "projectRef": "uvdjllxzjpnkcwvfujgj",
+        "tableId": "project_requests",
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "id",
+              "condition": "eq",
+              "keyValue": "={{ $('Edit Fields').item.json.request_id }}"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        432,
+        192
+      ],
+      "id": "280ff20d-46f8-4907-8d98-7ca124ec50ea",
+      "name": "Get many rows",
+      "credentials": {
+        "supabaseOAuth2Api": {
+          "id": "l2wrtRtEYSANbl2B",
+          "name": "Supabase account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "operation": "update",
+        "projectRef": "uvdjllxzjpnkcwvfujgj",
+        "tableId": "project_requests",
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "id",
+              "condition": "eq",
+              "keyValue": "={{ $('Edit Fields').item.json.request_id }}"
+            }
+          ]
+        },
+        "fieldsUi": {
+          "fieldValues": [
+            {
+              "fieldId": "status",
+              "fieldValue": "=failed"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        1248,
+        304
+      ],
+      "id": "10027679-99bb-478f-90e0-5c542bd4d3aa",
+      "name": "Update a row2",
+      "credentials": {
+        "supabaseOAuth2Api": {
+          "id": "l2wrtRtEYSANbl2B",
+          "name": "Supabase account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "schemaType": "manual",
+        "inputSchema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"summary\": {\n      \"type\": \"string\"\n    },\n    \"project_goal\": {\n      \"type\": \"string\"\n    },\n    \"phases\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"title\": {\n            \"type\": \"string\"\n          },\n          \"objective\": {\n            \"type\": \"string\"\n          },\n          \"description\": {\n            \"type\": \"string\"\n          },\n          \"actions\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"string\"\n            }\n          },\n          \"priority\": {\n            \"type\": \"string\",\n            \"enum\": [\"High\", \"Medium\", \"Low\"]\n          }\n        },\n        \"required\": [\n          \"title\",\n          \"objective\",\n          \"description\",\n          \"actions\",\n          \"priority\"\n        ],\n        \"additionalProperties\": false\n      }\n    },\n    \"recommended_actions\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"risks\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"risk\": {\n            \"type\": \"string\"\n          },\n          \"mitigation\": {\n            \"type\": \"string\"\n          }\n        },\n        \"required\": [\"risk\", \"mitigation\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"estimated_duration\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"summary\",\n    \"project_goal\",\n    \"phases\",\n    \"recommended_actions\",\n    \"risks\",\n    \"estimated_duration\"\n  ],\n  \"additionalProperties\": false\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        960,
+        336
+      ],
+      "id": "bc59c7c2-5a9f-484e-aa29-8c316e8c48b4",
+      "name": "Structured Output Parser",
+      "retryOnFail": true,
+      "waitBetweenTries": 2000,
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.2,
+      "position": [
+        752,
+        320
+      ],
+      "id": "2a368265-3ae0-4abc-ae01-1b5fa6ebb0c7",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "WFY4XQTmDqyHrHyG",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Get many rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Respond to Webhook": {
+      "main": [
+        [
+          {
+            "node": "Update a row1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Create a row",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Update a row2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create a row": {
+      "main": [
+        [
+          {
+            "node": "Update a row",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Update a row2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get many rows": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ],
+      "main": [
+        [
+          {
+            "node": "Update a row2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": true
+  },
+  "staticData": null,
+  "pinData": {},
+  "triggerCount": 0,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  }
+}
