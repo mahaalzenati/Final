@@ -294,8 +294,6 @@
 
 ## 👩‍💻 صاحبة المشروع
 
-**Maha Alzenati**
+**[Maha Alzenati]**
 
-
-- **LinkedIn:** [أضيفي رابط حسابك]
-- **GitHub:** [أضيفي رابط حسابك]
+[LinkedIn](https://www.linkedin.com/in/maha-alzenati-gamedev/) · [GitHub](https://github.com/mahaalzenati)
