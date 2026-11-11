@@ -222,8 +222,10 @@
 ## 📎 روابط المشروع
 
 - رابط التطبيق: [https://screenshot-heartbeat.lovable.app]
-- رابط المستودع على GitHub: [يُضاف عند توفره]
+- رابط المستودع على GitHub: [https://github.com/mahaalzenati/Final]
 
 ## 👩‍💻 إعداد المشروع
 
-مها الزيناتي — Maha Alzenati
+**[Maha Alzenati]**
+
+[LinkedIn](https://www.linkedin.com/in/maha-alzenati-gamedev/) · [GitHub](https://github.com/mahaalzenati)
