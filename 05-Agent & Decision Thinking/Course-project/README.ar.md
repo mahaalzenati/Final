@@ -249,4 +249,5 @@ Phone Number:
 
 **المبدأ الأساسي:** اجمع المعلومات بدقة، وتحقق منها بعناية، واحصل على التأكيد الصريح، ونفّذ الإجراءات ضمن ضوابط واضحة، ولا تعلن إلا عن النتائج التي تم التحقق منها
 
-[المشروع](https://kamalmaha.app.n8n.cloud/workflow/cs4kFYgWiyMJxGHH)
+[المشروع](./Json/cs4kFYgWiyMJxGHH-XYZ_Real_Estate_AI_Agent.json)
+
