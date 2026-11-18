@@ -8,7 +8,7 @@
 
 ## 👩‍💻 About Me
 
-Hi, I'm **[Maha alzenati]**.
+Hi, I'm **Maha alzenati**.
 
 I am a **Computer Engineer** interested in building AI-powered solutions that solve real-world problems and create meaningful impact.
 
