@@ -10,7 +10,7 @@
 
 Hi, I'm **[Maha alzenati]**.
 
-I am a **[UX/UI designer]** interested in building AI-powered solutions that solve real-world problems and create meaningful impact.
+I am a **Computer Engineer** interested in building AI-powered solutions that solve real-world problems and create meaningful impact.
 
 Through this portfolio, I document the systems and solutions I design and build throughout my AI Automation journey.
 
