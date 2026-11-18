@@ -437,8 +437,9 @@ The projects are presented as documented engineering work, including the problem
 
 ## 👩‍💻 Author
 
-**[Your Name]**
+**Maha Alzenati**
 
 AI Automation | AI-Powered Solutions | Human-Centered Innovation
 
-[LinkedIn] · [GitHub] · [Portfolio]
+[LinkedIn](https://www.linkedin.com/in/maha-alzenati-gamedev/) · [GitHub](https://github.com/mahaalzenati)
+· [Portfolio](https://github.com/mahaalzenati/Final/tree/main)
