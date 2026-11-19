@@ -124,8 +124,8 @@ To access or reproduce the system, the following components must be configured:
 
 ## 7. Demo
 
-- **Live Dashboard:** [Add Dashboard Link]
-- **Demo Video:** [Add Demo Video Link]
+- **Live Dashboard:** [https://pixel-for-pixel-page-maker.lovable.app]
+- **Demo Video:** [Final Project/Screenshots/Demo (1).mp4]
 
 ## 8. Known Limitations
 
@@ -137,7 +137,7 @@ To access or reproduce the system, the following components must be configured:
 
 ## 9. Project Structure
 
-[Add the final repository folder structure here.]
+[https://github.com/mahaalzenati/Final/tree/main/Final%20Project]
 
 ## 10. Future Improvements
 
