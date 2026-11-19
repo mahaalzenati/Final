@@ -121,7 +121,6 @@ To access or reproduce the system, the following components must be configured:
 3. **Telegram Bot:** Configure the bot and connect it to the notification and approval workflows.
 4. **Lovable Dashboard:** Connect the dashboard to Supabase to display and manage system data.
 
-> Note: The required credentials and API keys should be configured securely and must not be committed to the repository.
 
 ## 7. Demo
 
